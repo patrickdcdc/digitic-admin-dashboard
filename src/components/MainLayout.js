@@ -77,7 +77,7 @@ const MainLayout = () => {
                   label: "Brand",
                 },
                 {
-                  key: "list brand",
+                  key: "list-brand",
                   icon: <SiBrandfolder style={{ fontSize: "1.75rem" }} />,
                   label: "Brand List",
                 },
@@ -113,7 +113,7 @@ const MainLayout = () => {
               label: "Orders",
             },
             {
-              key: "blog",
+              key: "blogs ",
               icon: <FaBloggerB style={{ fontSize: "1.75rem" }} />,
               label: "Blogs",
               children: [
