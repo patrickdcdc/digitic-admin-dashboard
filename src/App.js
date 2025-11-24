@@ -9,6 +9,7 @@ import MainLayout from "./components/MainLayout";
 //import Bloglist from "./pages/Bloglist";
 //import Blogcatlist from "./pages/Blogcatlist";
 import Addblog from "./pages/Addblog";
+import Addblogcat from "./pages/Addblogcat";
 //import Orders from "./pages/Orders";
 //import Customers from "./pages/Customers";
 //import Colorlist from "./pages/Colorlist";
@@ -29,6 +30,7 @@ function App() {
           <Route path="blog-list" element={<Bloglist />} />
           <Route path="blog-category-list" element={<Blogcatlist />} />*/}
           <Route path="blog" element={<Addblog />} />
+          <Route path="blog-category" element={<Addblogcat />} />
           {/*<Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
           <Route path="list-color" element={<Colorlist />} />
