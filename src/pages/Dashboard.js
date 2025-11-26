@@ -99,56 +99,59 @@ const Dashboard = () => {
 
   return (
     <div>
-      <h3 className="mb-4">Dashboard</h3>
+      <h3 className="mb-4 title">Dashboard</h3>
       <div
         className="d-flex justify-content-between align-items-center gap-3"
         style={{ rowGap: "2rem", columnGap: "2rem" }}
       >
         <div className="d-flex justify-content-between align-items-end flex-grow-1 bg-white p-3 rounded-3">
           <div>
-            <p className="mb-0">Total</p> <h4 className="mb-0">$1100</h4>
+            <p className="desc">Total</p>
+            <h4 className="mb-0 sub-title">$1100</h4>
           </div>
           <div className="d-flex flex-column align-items-end">
             <h6 className="red">
               <GoArrowDownRight />
               32%
             </h6>
-            <p className="mb-0">Compared to April</p>
+            <p className="mb-0 desc">Compared to April</p>
           </div>
         </div>
         <div className="d-flex justify-content-between align-items-end flex-grow-1 bg-white p-3 rounded-3">
           <div>
-            <p className="mb-0">Total</p> <h4 className="mb-0">$1100</h4>
+            <p className="desc">Total</p>
+            <h4 className="mb-0 sub-title">$1100</h4>
           </div>
           <div className="d-flex flex-column align-items-end">
             <h6 className="green">
               <BsArrowUpRight />
               32%
             </h6>
-            <p className="mb-0">Compared to April 2022</p>
+            <p className="mb-0 desc">Compared to April 2022</p>
           </div>
         </div>
         <div className="d-flex justify-content-between align-items-end flex-grow-1 bg-white p-3 rounded-3">
           <div>
-            <p className="mb-0">Total</p> <h4 className="mb-0">$1100</h4>
+            <p className="desc">Total</p>
+            <h4 className="mb-0 sub-title">$1100</h4>
           </div>
           <div className="d-flex flex-column align-items-end">
             <h6 className="green">
               <BsArrowUpRight />
               32%
             </h6>
-            <p className="mb-0">Compared to April 2022</p>
+            <p className="mb-0 desc">Compared to April 2022</p>
           </div>
         </div>
       </div>
       <div className="mt-4">
-        <h3 className="mb-4">Income statistics</h3>
+        <h3 className="mb-5 title">Income statistics</h3>
         <div>
           <Column {...config} />
         </div>
       </div>
       <div className="mt-4">
-        <h3 className="mb-4">Recent orders</h3>
+        <h3 className="mb-4 title">Recent orders</h3>
         <div>
           <Table columns={columns} dataSource={data1} />
         </div>

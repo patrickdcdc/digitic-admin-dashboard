@@ -60,7 +60,7 @@ const rowSelection = {
 const Blogcatlist = () => {
   return (
     <div>
-      <h3 className="mb-4">Blog categories</h3>
+      <h3 className="mb-4 titl">Blog categories</h3>
       <div>
         <Table columns={columns} dataSource={data1} />
       </div>

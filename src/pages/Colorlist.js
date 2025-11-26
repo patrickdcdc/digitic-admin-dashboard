@@ -60,7 +60,7 @@ const rowSelection = {
 const Colorlist = () => {
   return (
     <div>
-      <h3 className="mb-4">Color list</h3>
+      <h3 className="mb-4 title">Color list</h3>
       <div>
         <Table columns={columns} dataSource={data1} />
       </div>

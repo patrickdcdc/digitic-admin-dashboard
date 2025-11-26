@@ -5,7 +5,7 @@ const Resetpassword = () => {
   return (
     <div className="py-5" style={{ background: "#ffd333", minHeight: "100vh" }}>
       <div className="my-5 w-25 bg-white rounded-3 mx-auto p-4">
-        <h3 className="text-center">Reset password</h3>
+        <h3 className="text-center title">Reset password</h3>
         <p className="text-center">
           Please enter your registered email to reset password
         </p>
