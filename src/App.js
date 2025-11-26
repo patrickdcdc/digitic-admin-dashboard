@@ -10,6 +10,10 @@ import MainLayout from "./components/MainLayout";
 //import Blogcatlist from "./pages/Blogcatlist";
 import Addblog from "./pages/Addblog";
 import Addblogcat from "./pages/Addblogcat";
+import Addcolor from "./pages/Addcolor";
+import Addcat from "./pages/Addcat";
+import Addbrand from "./pages/Addbrand";
+import Addproduct from "./pages/Addproduct";
 //import Orders from "./pages/Orders";
 //import Customers from "./pages/Customers";
 //import Colorlist from "./pages/Colorlist";
@@ -37,6 +41,10 @@ function App() {
           <Route path="list-category" element={<Categorylist />} />
           <Route path="list-brand" element={<Brandlist />} />
           <Route path="product-list" element={<Productlist />} />*/}
+          <Route path="color" element={<Addcolor />} />
+          <Route path="category" element={<Addcat />} />
+          <Route path="brand" element={<Addbrand />} />
+          <Route path="product" element={<Addproduct />} />
         </Route>
       </Routes>
     </Router>
